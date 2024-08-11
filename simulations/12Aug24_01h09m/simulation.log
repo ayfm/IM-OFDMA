@@ -1,0 +1,46 @@
+[12Aug24 01:09:41.420][root]: ::: IM-OFDMA Simulation :::
+[12Aug24 01:09:41.420][root]: >>> IM-OFDMA Parameters:
+  > M  : 2 - Modulation order
+  > K  : 2 - Number of chunks
+  > Lk : 2 - Number of subcarriers in a chunk
+  > Lt : 4 - Total number of subcarriers (derived)
+  > Nk : 2 - Number of user to be served in a chunk
+  > Nt : 4 - Total number of users to be served (derived)
+  > SNRdB : 10
+  > SNR   : 10.00000 (derived)
+  > var_W : 0.10000 - Variance of the internal noise (derived)
+  > T     : 10 - Channel coherence time
+  > var_H : 1.00000 - Variance of the channel coefficient distribution
+  > nu_M   : 1 (derived)
+  > nu_L   : 1 (derived)
+  > nu_N   : 2 - Number of bits to be transmitted per user (derived)
+  > nu_K   : 4 - Number of bits to be transmitted per chunk (derived)
+  > n_Xtable : 16 - Size of lookup table (derived)
+
+>>> Simulation Parameters:
+  > X_transmit      : None
+  > Grouping Option : None
+  > Checkpoint      : 25%
+  > Random Seed     : 31
+  > Batch Size      : 500
+  > Iter Power      : 3
+  > Iter Coeff      : 1
+  > N Iterations    : 1000 (derived)
+
+[12Aug24 01:09:41.420][root]: Generating Lookup Table...
+[12Aug24 01:09:41.423][root]: Lookup Table Shape: (2, 2, 16)
+[12Aug24 01:09:41.424][root]: Generating User Grouping Options...
+[12Aug24 01:09:41.424][root]: Number of Grouping Options: 6
+[12Aug24 01:09:41.518][root]: User grouping options saved to /Users/ayf/MyRepo/Research/UserGrouping/workspace_github/imofdma/../simulations/12Aug24_01h09m/group_option_list.xlsx
+[12Aug24 01:09:41.518][root]: Lookup table saved to /Users/ayf/MyRepo/Research/UserGrouping/workspace_github/imofdma/../simulations/12Aug24_01h09m/lookup.txt
+[12Aug24 01:09:41.520][root]: Configuration saved to /Users/ayf/MyRepo/Research/UserGrouping/workspace_github/imofdma/../simulations/12Aug24_01h09m/config.yaml
+[12Aug24 01:09:41.520][root]: Simulation started with 1000 iterations (with 6 sub-iterations)
+[12Aug24 01:09:42.193][root]: Saving data: data1
+[12Aug24 01:09:42.426][root]: Data saved.
+[12Aug24 01:09:43.087][root]: Saving data: data2
+[12Aug24 01:09:43.299][root]: Data saved.
+[12Aug24 01:09:43.960][root]: Saving data: data3
+[12Aug24 01:09:44.169][root]: Data saved.
+[12Aug24 01:09:44.827][root]: Saving data: data4
+[12Aug24 01:09:45.035][root]: Data saved.
+[12Aug24 01:09:45.037][root]: Simulation ended.

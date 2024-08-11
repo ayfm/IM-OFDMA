@@ -1,0 +1,20 @@
+simulation:
+  x_transmit_idx: null # Set to null for random transmission data
+  grouping_options: null # List of user grouping options to be evaluated. Set it null to evaluate all options.
+  checkpoint_percent: 25 # Percent of iterations needed to be completed to save results (0-100)
+  random_seed: 22 # Set to null for random seed
+  batch_size: 500 # Number of states to be evaluated in batch
+  iter_coeff: 1 # Coefficient of iterations
+  iter_power: 3 # Power of iterations
+
+im-ofdma:
+  M: 2 # Modulation order
+  K: 2 # Total number of chunks
+  Lk: 2 # Number of subcarriers per chunk
+  ## TODO: Implement support for multiple subcarriers per user
+  ## La: 1  # Number of subcarriers allocated to each user
+  Nk: 2 # number of users to be served per chunk
+  SNRdB: 10 # SNR in dB
+  T: 10 # Channel coherence time (in symbols)
+  var_H: 1 # Variance of the Rayleigh fading channel distribution  (default: unit variance)
+

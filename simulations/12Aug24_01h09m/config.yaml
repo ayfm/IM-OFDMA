@@ -1,0 +1,26 @@
+im_ofdma:
+    K: 2
+    Lk: 2
+    M: 2
+    Nk: 2
+    SNRdB: 10
+    T: 10
+    n_lookup: 16
+    n_total_subcarriers: 4
+    n_total_users: 4
+    nu_K: 4
+    nu_L: 1
+    nu_M: 1
+    nu_N: 2
+    snr: 10.0
+    var_H: 1
+    var_W: 0.1
+sim:
+    batch_size: 500
+    checkpoint_percent: 25
+    grouping_options: null
+    iter_coeff: 1
+    iter_power: 3
+    n_iterations: 1000
+    random_seed: 22
+    x_transmit_idx: null

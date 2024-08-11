@@ -1,0 +1,21 @@
+{
+   "iter": "int64",
+   "hcnt": "int64",
+   "g": "int64",
+   "k": "int64",
+   "x_idx": "int64",
+   "xh_idx": "int64",
+   "ber": "float64",
+   "residual": "object",
+   "corr": "object",
+   "h00": "complex128",
+   "h01": "complex128",
+   "h10": "complex128",
+   "h11": "complex128",
+   "y0": "complex128",
+   "y1": "complex128",
+   "w0": "complex128",
+   "w1": "complex128",
+   "yw0": "complex128",
+   "yw1": "complex128"
+}
